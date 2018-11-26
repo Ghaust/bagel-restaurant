@@ -9,9 +9,9 @@ public class Main {
         HashSet<Note> notes = new HashSet<Note>();
         HashSet<Product> stock = new HashSet<Product>();
 
-        Checkout nouvelleCheckout = new Checkout(0.0, 0.0, notes, stock);
+        Checkout nouvelleCheckout = new Checkout();
 
         nouvelleCheckout.initProgram();
-        System.out.println("Hello World!");
+
     }
 }

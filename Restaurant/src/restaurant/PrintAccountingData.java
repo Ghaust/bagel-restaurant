@@ -8,12 +8,12 @@ public class PrintAccountingData implements Operation{
 
     @Override
     public String name() {
-        return null;
+        return "PrintAccountingData";
     }
 
     @Override
     public String instruction() {
-        return null;
+        return "Afficher les données comptables - accounting";
     }
 
 }

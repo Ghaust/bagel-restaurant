@@ -1,0 +1,47 @@
+2018-11-26T18:25:02.970+0100 info  Categorie: [OUTPUT] Message:Quitter le programme - quit
+2018-11-26T18:25:02.971+0100 info  Categorie: [OUTPUT] Message:Afficher les opérations disponibles - disp
+2018-11-26T18:25:02.971+0100 info  Categorie: [OUTPUT] Message:Ajouter un produit à la vente - add
+2018-11-26T18:25:02.972+0100 info  Categorie: [OUTPUT] Message:Afficher la liste des produits disponibles à la vente - print
+2018-11-26T18:25:02.972+0100 info  Categorie: [OUTPUT] Message:Ouvrir la note d'un client - open 
+2018-11-26T18:25:02.973+0100 info  Categorie: [OUTPUT] Message:Enregistrer la vente d'un produit sur la note d'un client - sell
+2018-11-26T18:25:02.973+0100 info  Categorie: [OUTPUT] Message:Clôturer la note d'un client - close
+2018-11-26T18:25:02.974+0100 info  Categorie: [OUTPUT] Message:Afficher les données comptables - accounting
+2018-11-26T18:25:08.794+0100 Veuillez saisir le nom du client svp !
+
+2018-11-26T18:25:23.320+0100 info  Categorie: [OUTPUT] Message:Quitter le programme - quit
+2018-11-26T18:25:23.320+0100 info  Categorie: [OUTPUT] Message:Afficher les opérations disponibles - disp
+2018-11-26T18:25:23.321+0100 info  Categorie: [OUTPUT] Message:Ajouter un produit à la vente - add
+2018-11-26T18:25:23.321+0100 info  Categorie: [OUTPUT] Message:Afficher la liste des produits disponibles à la vente - print
+2018-11-26T18:25:23.322+0100 info  Categorie: [OUTPUT] Message:Ouvrir la note d'un client - open 
+2018-11-26T18:25:23.322+0100 info  Categorie: [OUTPUT] Message:Enregistrer la vente d'un produit sur la note d'un client - sell
+2018-11-26T18:25:23.323+0100 info  Categorie: [OUTPUT] Message:Clôturer la note d'un client - close
+2018-11-26T18:25:23.323+0100 info  Categorie: [OUTPUT] Message:Afficher les données comptables - accounting
+2018-11-26T18:25:41.168+0100 Nom du client : 
+
+2018-11-26T18:25:46.552+0100 error  Categorie: [OUTPUT] Message:Ce client n'existe pas
+2018-11-26T18:26:20.384+0100 info  Categorie: [OUTPUT] Message:Quitter le programme - quit
+2018-11-26T18:26:20.384+0100 info  Categorie: [OUTPUT] Message:Afficher les opérations disponibles - disp
+2018-11-26T18:26:20.385+0100 info  Categorie: [OUTPUT] Message:Ajouter un produit à la vente - add
+2018-11-26T18:26:20.386+0100 info  Categorie: [OUTPUT] Message:Afficher la liste des produits disponibles à la vente - print
+2018-11-26T18:26:20.386+0100 info  Categorie: [OUTPUT] Message:Ouvrir la note d'un client - open 
+2018-11-26T18:26:20.387+0100 info  Categorie: [OUTPUT] Message:Enregistrer la vente d'un produit sur la note d'un client - sell
+2018-11-26T18:26:20.387+0100 info  Categorie: [OUTPUT] Message:Clôturer la note d'un client - close
+2018-11-26T18:26:20.388+0100 info  Categorie: [OUTPUT] Message:Afficher les données comptables - accounting
+2018-11-26T18:27:57.148+0100 info  Categorie: [OUTPUT] Message:Quitter le programme - quit
+2018-11-26T18:27:57.149+0100 info  Categorie: [OUTPUT] Message:Afficher les opérations disponibles - disp
+2018-11-26T18:27:57.150+0100 info  Categorie: [OUTPUT] Message:Ajouter un produit à la vente - add
+2018-11-26T18:27:57.150+0100 info  Categorie: [OUTPUT] Message:Afficher la liste des produits disponibles à la vente - print
+2018-11-26T18:27:57.151+0100 info  Categorie: [OUTPUT] Message:Ouvrir la note d'un client - open 
+2018-11-26T18:27:57.151+0100 info  Categorie: [OUTPUT] Message:Enregistrer la vente d'un produit sur la note d'un client - sell
+2018-11-26T18:27:57.152+0100 info  Categorie: [OUTPUT] Message:Clôturer la note d'un client - close
+2018-11-26T18:27:57.153+0100 info  Categorie: [OUTPUT] Message:Afficher les données comptables - accounting
+
+2018-11-26T18:30:51.518+0100 info  Categorie: [OUTPUT] Message:Quitter le programme - quit
+2018-11-26T18:30:51.519+0100 info  Categorie: [OUTPUT] Message:Afficher les opérations disponibles - disp
+2018-11-26T18:30:51.520+0100 info  Categorie: [OUTPUT] Message:Ajouter un produit à la vente - add
+2018-11-26T18:30:51.520+0100 info  Categorie: [OUTPUT] Message:Afficher la liste des produits disponibles à la vente - print
+2018-11-26T18:30:51.521+0100 info  Categorie: [OUTPUT] Message:Ouvrir la note d'un client - open 
+2018-11-26T18:30:51.522+0100 info  Categorie: [OUTPUT] Message:Enregistrer la vente d'un produit sur la note d'un client - sell
+2018-11-26T18:30:51.522+0100 info  Categorie: [OUTPUT] Message:Clôturer la note d'un client - close
+2018-11-26T18:30:51.522+0100 info  Categorie: [OUTPUT] Message:Afficher les données comptables - accounting
+
