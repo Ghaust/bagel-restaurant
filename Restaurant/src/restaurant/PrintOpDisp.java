@@ -1,20 +1,23 @@
-package restaurant;
+package restaurant.src.restaurant;
 
-import logger.Logger;
-import logger.LoggerFactory;
+
+import logger.src.logger.Logger;
+
+
+import java.util.Scanner;
 
 public class PrintOpDisp implements Operation {
 
     @Override
-    public void launchOp() {
-        logger.info("OUTPUT","Quitter le programme - quit");
-        logger.info("OUTPUT","Afficher les opérations disponibles - disp");
-        logger.info("OUTPUT","Ajouter un produit à la vente - add");
-        logger.info("OUTPUT","Afficher la liste des produits disponibles à la vente - print");
-        logger.info("OUTPUT","Ouvrir la note d'un client - open ");
-        logger.info("OUTPUT","Enregistrer la vente d'un produit sur la note d'un client - sell");
-        logger.info("OUTPUT","Clôturer la note d'un client - close");
-        logger.info("OUTPUT","Afficher les données comptables - accounting\n");
+    public void launchOp(Scanner sc, Logger logger) {
+        logger.info("OUTPUT","Quit the program - quit");
+        logger.info("OUTPUT","Print available operations - disp");
+        logger.info("OUTPUT","Add a new product to the sale - add");
+        logger.info("OUTPUT","Print all available products  - print");
+        logger.info("OUTPUT","Open a client's note - open ");
+        logger.info("OUTPUT","Save a sell on a client's note - sell");
+        logger.info("OUTPUT","Close the note of a client - close");
+        logger.info("OUTPUT","Print the accounting data - accounting\n");
 
     }
 
@@ -23,9 +26,5 @@ public class PrintOpDisp implements Operation {
         return "PrintOpDisp";
     }
 
-    @Override
-    public String instruction() {
-        return "Afficher les opérations disponibles - disp";
-    }
 
 }

@@ -1,4 +1,7 @@
-package restaurant;
+package restaurant.src.restaurant;
+
+import logger.src.logger.Logger;
+
 
 import java.util.HashSet;
 import java.util.Scanner;
@@ -6,28 +9,33 @@ import java.util.Scanner;
 public class CloseNote implements Operation {
     HashSet<Note> notes = Checkout.notes;
     @Override
-    public void launchOp() {
-        logger.log("Veuillez saisir le nom du client svp !");
-        Scanner sc = new Scanner(System.in);
-        String clientName = sc.nextLine();
+    public void launchOp(Scanner sc, Logger logger) {
 
-        boolean nonUse = false;
+        String clientName = "";
+        logger.info("OUTPUT","Client name :");
+        try {
+            clientName = sc.nextLine();
+        }catch(Exception e){
+            logger.error("INPUT", "Not String");
+        }
+
+
 
         for(Note n : notes){
             if(!n.getNomClient().equals(clientName)){
-               nonUse = false;
-               break;
+                logger.error("OUTPUT", "This note cannot be closed because the client doesn't exist.");
+            }else{
+                logger.info("INPUT", "You want to close the note of " + clientName);
+                n.calculateCheck();
+                logger.info("INPUT", "Total check (HT) : " + n.getTotal_check());
+                logger.info("INPUT", "Total check (TTC) : " + (n.getTotal_check()-n.getTotal_check()/10) );
+                Checkout.total_tva = n.getTotal_check()/10;
+                Checkout.total_money = n.getTotal_check()-n.getTotal_check()/10;
+                break;
             }
-            logger.info("OUTPUT", "Vous souhaitez fermer la note de " + clientName);
-            n.calculateCheck();
-            logger.info("OUTPUT", "Montant total (HT) : " + n.getTotal_check());
-            logger.info("OUTPUT", "Montant (TTC) : " + (n.getTotal_check()-n.getTotal_check()/10) );
-            Checkout.total_tva = n.getTotal_check()/10;
-            Checkout.total_money = n.getTotal_check()-n.getTotal_check()/10;
         }
 
-        if(nonUse == false)
-            logger.error("OUTPUT", "Cette note ne peut pas être fermée car elle n'existe pas.");
+        dispListNote(logger);
     }
 
     @Override
@@ -35,9 +43,10 @@ public class CloseNote implements Operation {
         return "CloseNote";
     }
 
-    @Override
-    public String instruction() {
-        return "Fermer la note d'un client - close";
-    }
 
+    public void dispListNote(Logger logger){
+        for(Note n : Checkout.notes){
+            logger.info("OUTPUT", n.getNomClient() + " " + n.getTotal_check());
+        }
+    }
 }

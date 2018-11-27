@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/Logger/Logger.iml" filepath="$PROJECT_DIR$/Logger/Logger.iml" />
       <module fileurl="file://$PROJECT_DIR$/Restaurant/Restaurant.iml" filepath="$PROJECT_DIR$/Restaurant/Restaurant.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-project2.iml" filepath="$PROJECT_DIR$/java-project2.iml" />
     </modules>
   </component>
 </project>

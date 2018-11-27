@@ -1,0 +1,274 @@
+2018-11-27T11:09:04.497+0100 info  Categorie: [OUTPUT] Message:Welcome to your restaurant management interface young padawan !
+2018-11-27T11:09:04.604+0100 info  Categorie: [OUTPUT] Message:How may I help you today ? (disp for the different operations)
+
+2018-11-27T11:09:08.301+0100 info  Categorie: [OUTPUT] Message:Command not found, disp for all the cmd
+2018-11-27T11:09:11.390+0100 info  Categorie: [OUTPUT] Message:Quit the program - quit
+2018-11-27T11:09:11.390+0100 info  Categorie: [OUTPUT] Message:Print available operations - disp
+2018-11-27T11:09:11.392+0100 info  Categorie: [OUTPUT] Message:Add a new product to the sale - add
+2018-11-27T11:09:11.392+0100 info  Categorie: [OUTPUT] Message:Print all available products  - print
+2018-11-27T11:09:11.393+0100 info  Categorie: [OUTPUT] Message:Open a client's note - open 
+2018-11-27T11:09:11.393+0100 info  Categorie: [OUTPUT] Message:Save a sell on a client's note - sell
+2018-11-27T11:09:11.394+0100 info  Categorie: [OUTPUT] Message:Close the note of a client - close
+2018-11-27T11:09:11.395+0100 info  Categorie: [OUTPUT] Message:Print the accounting data - accounting
+
+2018-11-27T11:09:14.987+0100 info  Categorie: [OUTPUT] Message:Command not found, disp for all the cmd
+2018-11-27T11:09:18.271+0100 info  Categorie: [OUTPUT] Message:Burgers - 10 - 5.5€
+2018-11-27T11:09:18.271+0100 info  Categorie: [OUTPUT] Message:Smoothies - 30 - 2.5€
+2018-11-27T11:09:18.272+0100 info  Categorie: [OUTPUT] Message:Bagels - 20 - 3.5€
+2018-11-27T11:09:18.290+0100 info  Categorie: [OUTPUT] Message:Cafes - Unlimited - 5.5€
+2018-11-27T11:09:26.829+0100 info  Categorie: [OUTPUT] Message:Quit the program - quit
+2018-11-27T11:09:26.829+0100 info  Categorie: [OUTPUT] Message:Print available operations - disp
+2018-11-27T11:09:26.830+0100 info  Categorie: [OUTPUT] Message:Add a new product to the sale - add
+2018-11-27T11:09:26.831+0100 info  Categorie: [OUTPUT] Message:Print all available products  - print
+2018-11-27T11:09:26.831+0100 info  Categorie: [OUTPUT] Message:Open a client's note - open 
+2018-11-27T11:09:26.832+0100 info  Categorie: [OUTPUT] Message:Save a sell on a client's note - sell
+2018-11-27T11:09:26.833+0100 info  Categorie: [OUTPUT] Message:Close the note of a client - close
+2018-11-27T11:09:26.833+0100 info  Categorie: [OUTPUT] Message:Print the accounting data - accounting
+
+2018-11-27T11:09:29.557+0100 info  Categorie: [OUTPUT] Message:Client name :
+2018-11-27T11:09:32.357+0100 error  Categorie: [OUTPUT] Message:This note cannot be closed because the client doesn't exist.
+2018-11-27T11:09:34.821+0100 info  Categorie: [OUTPUT] Message:Command not found, disp for all the cmd
+2018-11-27T11:10:13.480+0100 info  Categorie: [OUTPUT] Message:Welcome to your restaurant management interface young padawan !
+2018-11-27T11:10:13.563+0100 info  Categorie: [OUTPUT] Message:How may I help you today ? (disp for the different operations)
+
+2018-11-27T11:10:31.998+0100 info  Categorie: [OUTPUT] Message:Welcome to your restaurant management interface young padawan !
+2018-11-27T11:10:32.078+0100 info  Categorie: [OUTPUT] Message:How may I help you today ? (disp for the different operations)
+
+2018-11-27T11:10:34.619+0100 info  Categorie: [OUTPUT] Message:Quit the program - quit
+2018-11-27T11:10:34.620+0100 info  Categorie: [OUTPUT] Message:Print available operations - disp
+2018-11-27T11:10:34.620+0100 info  Categorie: [OUTPUT] Message:Add a new product to the sale - add
+2018-11-27T11:10:34.621+0100 info  Categorie: [OUTPUT] Message:Print all available products  - print
+2018-11-27T11:10:34.621+0100 info  Categorie: [OUTPUT] Message:Open a client's note - open 
+2018-11-27T11:10:34.621+0100 info  Categorie: [OUTPUT] Message:Save a sell on a client's note - sell
+2018-11-27T11:10:34.622+0100 info  Categorie: [OUTPUT] Message:Close the note of a client - close
+2018-11-27T11:10:34.622+0100 info  Categorie: [OUTPUT] Message:Print the accounting data - accounting
+
+2018-11-27T11:10:36.442+0100 info  Categorie: [OUTPUT] Message:Client name :
+2018-11-27T11:10:38.811+0100 error  Categorie: [OUTPUT] Message:This note cannot be closed because the client doesn't exist.
+2018-11-27T11:10:41.218+0100 info  Categorie: [OUTPUT] Message:Command not found, disp for all the cmd
+2018-11-27T11:10:42.434+0100 info  Categorie: [OUTPUT] Message:Command not found, disp for all the cmd
+2018-11-27T11:10:45.426+0100 info  Categorie: [OUTPUT] Message:Add new product to the sale
+2018-11-27T11:10:45.427+0100 info  Categorie: [OUTPUT] Message:Product name :
+2018-11-27T11:10:48.426+0100 info  Categorie: [OUTPUT] Message:Quantity :
+2018-11-27T11:10:51.546+0100 error  Categorie: [INPUT] Message:Not Integer
+2018-11-27T11:10:51.547+0100 info  Categorie: [OUTPUT] Message:Price :
+2018-11-27T11:10:51.553+0100 error  Categorie: [INPUT] Message:Not Double
+2018-11-27T11:10:52.266+0100 info  Categorie: [OUTPUT] Message:Command not found, disp for all the cmd
+2018-11-27T11:10:56.092+0100 info  Categorie: [OUTPUT] Message:Burgers - 10 - 5.5€
+2018-11-27T11:10:56.093+0100 info  Categorie: [OUTPUT] Message: - 0 - 0.0€
+2018-11-27T11:10:56.094+0100 info  Categorie: [OUTPUT] Message:Smoothies - 30 - 2.5€
+2018-11-27T11:10:56.094+0100 info  Categorie: [OUTPUT] Message:Bagels - 20 - 3.5€
+2018-11-27T11:10:56.108+0100 info  Categorie: [OUTPUT] Message:Cafes - Unlimited - 5.5€
+2018-11-27T11:11:04.184+0100 info  Categorie: [OUTPUT] Message:Quit the program - quit
+2018-11-27T11:11:04.184+0100 info  Categorie: [OUTPUT] Message:Print available operations - disp
+2018-11-27T11:11:04.185+0100 info  Categorie: [OUTPUT] Message:Add a new product to the sale - add
+2018-11-27T11:11:04.185+0100 info  Categorie: [OUTPUT] Message:Print all available products  - print
+2018-11-27T11:11:04.186+0100 info  Categorie: [OUTPUT] Message:Open a client's note - open 
+2018-11-27T11:11:04.186+0100 info  Categorie: [OUTPUT] Message:Save a sell on a client's note - sell
+2018-11-27T11:11:04.186+0100 info  Categorie: [OUTPUT] Message:Close the note of a client - close
+2018-11-27T11:11:04.187+0100 info  Categorie: [OUTPUT] Message:Print the accounting data - accounting
+
+2018-11-27T11:11:12.425+0100 info  Categorie: [OUTPUT] Message:Client name : 
+2018-11-27T11:11:15.737+0100 info  Categorie: [OUTPUT] Message:Command not found, disp for all the cmd
+2018-11-27T11:13:54.032+0100 info  Categorie: [OUTPUT] Message:Welcome to your restaurant management interface young padawan !
+2018-11-27T11:13:54.094+0100 info  Categorie: [OUTPUT] Message:How may I help you today ? (disp for the different operations)
+
+2018-11-27T11:14:00.584+0100 info  Categorie: [OUTPUT] Message:Welcome to your restaurant management interface young padawan !
+2018-11-27T11:14:00.656+0100 info  Categorie: [OUTPUT] Message:How may I help you today ? (disp for the different operations)
+
+2018-11-27T11:14:02.820+0100 info  Categorie: [OUTPUT] Message:Quit the program - quit
+2018-11-27T11:14:02.820+0100 info  Categorie: [OUTPUT] Message:Print available operations - disp
+2018-11-27T11:14:02.821+0100 info  Categorie: [OUTPUT] Message:Add a new product to the sale - add
+2018-11-27T11:14:02.823+0100 info  Categorie: [OUTPUT] Message:Print all available products  - print
+2018-11-27T11:14:02.823+0100 info  Categorie: [OUTPUT] Message:Open a client's note - open 
+2018-11-27T11:14:02.824+0100 info  Categorie: [OUTPUT] Message:Save a sell on a client's note - sell
+2018-11-27T11:14:02.824+0100 info  Categorie: [OUTPUT] Message:Close the note of a client - close
+2018-11-27T11:14:02.824+0100 info  Categorie: [OUTPUT] Message:Print the accounting data - accounting
+
+2018-11-27T11:14:04.203+0100 info  Categorie: [OUTPUT] Message:Client name : 
+2018-11-27T11:14:07.867+0100 info  Categorie: [OUTPUT] Message:New note created for Kosovo
+2018-11-27T11:15:37.767+0100 info  Categorie: [OUTPUT] Message:Welcome to your restaurant management interface young padawan !
+2018-11-27T11:15:37.867+0100 info  Categorie: [OUTPUT] Message:How may I help you today ? (disp for the different operations)
+
+2018-11-27T11:15:39.600+0100 info  Categorie: [OUTPUT] Message:Quit the program - quit
+2018-11-27T11:15:39.601+0100 info  Categorie: [OUTPUT] Message:Print available operations - disp
+2018-11-27T11:15:39.602+0100 info  Categorie: [OUTPUT] Message:Add a new product to the sale - add
+2018-11-27T11:15:39.603+0100 info  Categorie: [OUTPUT] Message:Print all available products  - print
+2018-11-27T11:15:39.603+0100 info  Categorie: [OUTPUT] Message:Open a client's note - open 
+2018-11-27T11:15:39.603+0100 info  Categorie: [OUTPUT] Message:Save a sell on a client's note - sell
+2018-11-27T11:15:39.604+0100 info  Categorie: [OUTPUT] Message:Close the note of a client - close
+2018-11-27T11:15:39.605+0100 info  Categorie: [OUTPUT] Message:Print the accounting data - accounting
+
+2018-11-27T11:15:43.336+0100 info  Categorie: [OUTPUT] Message:Client name :
+2018-11-27T11:15:45.176+0100 error  Categorie: [OUTPUT] Message:This note cannot be closed because the client doesn't exist.
+2018-11-27T11:16:20.391+0100 info  Categorie: [OUTPUT] Message:Command not found, disp for all the cmd
+2018-11-27T11:16:20.392+0100 info  Categorie: [OUTPUT] Message:Quit the program - quit
+2018-11-27T11:16:20.393+0100 info  Categorie: [OUTPUT] Message:Print available operations - disp
+2018-11-27T11:16:20.393+0100 info  Categorie: [OUTPUT] Message:Add a new product to the sale - add
+2018-11-27T11:16:20.393+0100 info  Categorie: [OUTPUT] Message:Print all available products  - print
+2018-11-27T11:16:20.394+0100 info  Categorie: [OUTPUT] Message:Open a client's note - open 
+2018-11-27T11:16:20.394+0100 info  Categorie: [OUTPUT] Message:Save a sell on a client's note - sell
+2018-11-27T11:16:20.395+0100 info  Categorie: [OUTPUT] Message:Close the note of a client - close
+2018-11-27T11:16:20.395+0100 info  Categorie: [OUTPUT] Message:Print the accounting data - accounting
+
+2018-11-27T11:16:24.934+0100 info  Categorie: [OUTPUT] Message:Client name : 
+2018-11-27T11:16:27.615+0100 info  Categorie: [INPUT] Message:New note created for LordJe
+2018-11-27T11:16:27.616+0100 info  Categorie: [OUTPUT] Message:LordJe
+2018-11-27T11:17:04.997+0100 info  Categorie: [OUTPUT] Message:Command not found, disp for all the cmd
+2018-11-27T11:17:04.998+0100 info  Categorie: [OUTPUT] Message:Client name :
+2018-11-27T11:17:08.932+0100 info  Categorie: [INPUTPUT] Message:You want to close the note of LordJe
+2018-11-27T11:21:27.537+0100 info  Categorie: [OUTPUT] Message:Welcome to your restaurant management interface young padawan !
+2018-11-27T11:21:27.626+0100 info  Categorie: [OUTPUT] Message:How may I help you today ? (disp for the different operations)
+
+2018-11-27T11:21:29.476+0100 info  Categorie: [OUTPUT] Message:Quit the program - quit
+2018-11-27T11:21:29.477+0100 info  Categorie: [OUTPUT] Message:Print available operations - disp
+2018-11-27T11:21:29.478+0100 info  Categorie: [OUTPUT] Message:Add a new product to the sale - add
+2018-11-27T11:21:29.478+0100 info  Categorie: [OUTPUT] Message:Print all available products  - print
+2018-11-27T11:21:29.479+0100 info  Categorie: [OUTPUT] Message:Open a client's note - open 
+2018-11-27T11:21:29.479+0100 info  Categorie: [OUTPUT] Message:Save a sell on a client's note - sell
+2018-11-27T11:21:29.480+0100 info  Categorie: [OUTPUT] Message:Close the note of a client - close
+2018-11-27T11:21:29.480+0100 info  Categorie: [OUTPUT] Message:Print the accounting data - accounting
+
+2018-11-27T11:21:30.565+0100 info  Categorie: [OUTPUT] Message:Client name :
+2018-11-27T11:21:37.828+0100 info  Categorie: [OUTPUT] Message:Command not found, disp for all the cmd
+2018-11-27T11:21:37.829+0100 info  Categorie: [OUTPUT] Message:Client name : 
+2018-11-27T11:21:39.858+0100 info  Categorie: [INPUT] Message:New note created for Toto
+2018-11-27T11:21:39.859+0100 info  Categorie: [OUTPUT] Message:List of notes : 
+
+2018-11-27T11:21:39.860+0100 info  Categorie: [OUTPUT] Message:Toto
+2018-11-27T11:21:46.915+0100 info  Categorie: [OUTPUT] Message:Client name : 
+2018-11-27T11:21:47.763+0100 info  Categorie: [INPUT] Message:New note created for Jean
+2018-11-27T11:21:47.767+0100 info  Categorie: [OUTPUT] Message:List of notes : 
+
+2018-11-27T11:21:47.768+0100 info  Categorie: [OUTPUT] Message:Jean
+2018-11-27T11:21:47.769+0100 info  Categorie: [OUTPUT] Message:List of notes : 
+
+2018-11-27T11:21:47.769+0100 info  Categorie: [OUTPUT] Message:Toto
+2018-11-27T11:23:04.188+0100 info  Categorie: [OUTPUT] Message:Welcome to your restaurant management interface young padawan !
+2018-11-27T11:23:04.274+0100 info  Categorie: [OUTPUT] Message:How may I help you today ? (disp for the different operations)
+
+2018-11-27T11:23:06.481+0100 info  Categorie: [OUTPUT] Message:Quit the program - quit
+2018-11-27T11:23:06.482+0100 info  Categorie: [OUTPUT] Message:Print available operations - disp
+2018-11-27T11:23:06.483+0100 info  Categorie: [OUTPUT] Message:Add a new product to the sale - add
+2018-11-27T11:23:06.483+0100 info  Categorie: [OUTPUT] Message:Print all available products  - print
+2018-11-27T11:23:06.484+0100 info  Categorie: [OUTPUT] Message:Open a client's note - open 
+2018-11-27T11:23:06.484+0100 info  Categorie: [OUTPUT] Message:Save a sell on a client's note - sell
+2018-11-27T11:23:06.485+0100 info  Categorie: [OUTPUT] Message:Close the note of a client - close
+2018-11-27T11:23:06.485+0100 info  Categorie: [OUTPUT] Message:Print the accounting data - accounting
+
+2018-11-27T11:23:08.521+0100 info  Categorie: [OUTPUT] Message:Client name : 
+2018-11-27T11:23:33.445+0100 info  Categorie: [INPUT] Message:New note created for Larry
+2018-11-27T11:23:33.446+0100 info  Categorie: [OUTPUT] Message:List of notes : 
+
+2018-11-27T11:23:33.447+0100 info  Categorie: [OUTPUT] Message:Larry
+2018-11-27T11:23:55.915+0100 info  Categorie: [OUTPUT] Message:Welcome to your restaurant management interface young padawan !
+2018-11-27T11:23:55.995+0100 info  Categorie: [OUTPUT] Message:How may I help you today ? (disp for the different operations)
+
+2018-11-27T11:23:57.328+0100 info  Categorie: [OUTPUT] Message:Quit the program - quit
+2018-11-27T11:23:57.328+0100 info  Categorie: [OUTPUT] Message:Print available operations - disp
+2018-11-27T11:23:57.329+0100 info  Categorie: [OUTPUT] Message:Add a new product to the sale - add
+2018-11-27T11:23:57.331+0100 info  Categorie: [OUTPUT] Message:Print all available products  - print
+2018-11-27T11:23:57.331+0100 info  Categorie: [OUTPUT] Message:Open a client's note - open 
+2018-11-27T11:23:57.332+0100 info  Categorie: [OUTPUT] Message:Save a sell on a client's note - sell
+2018-11-27T11:23:57.332+0100 info  Categorie: [OUTPUT] Message:Close the note of a client - close
+2018-11-27T11:23:57.333+0100 info  Categorie: [OUTPUT] Message:Print the accounting data - accounting
+
+2018-11-27T11:23:59.495+0100 info  Categorie: [OUTPUT] Message:Client name : 
+2018-11-27T11:24:03.487+0100 info  Categorie: [INPUT] Message:New note created for Jean-Michel
+2018-11-27T11:24:03.488+0100 info  Categorie: [OUTPUT] Message:List of notes :
+2018-11-27T11:24:03.488+0100 info  Categorie: [OUTPUT] Message:Jean-Michel
+2018-11-27T11:24:06.359+0100 info  Categorie: [OUTPUT] Message:Client name : 
+2018-11-27T11:24:08.693+0100 info  Categorie: [INPUT] Message:New note created for Claude
+2018-11-27T11:24:08.694+0100 info  Categorie: [OUTPUT] Message:List of notes :
+2018-11-27T11:24:08.696+0100 info  Categorie: [OUTPUT] Message:Claude
+2018-11-27T11:24:08.697+0100 info  Categorie: [OUTPUT] Message:Jean-Michel
+2018-11-27T11:24:13.039+0100 info  Categorie: [OUTPUT] Message:Client name : 
+2018-11-27T11:24:18.510+0100 info  Categorie: [INPUT] Message:New note created for Joseph-Emmanuel
+2018-11-27T11:24:18.514+0100 info  Categorie: [OUTPUT] Message:List of notes :
+2018-11-27T11:24:18.515+0100 info  Categorie: [OUTPUT] Message:Claude
+2018-11-27T11:24:18.515+0100 info  Categorie: [OUTPUT] Message:Joseph-Emmanuel
+2018-11-27T11:24:18.516+0100 info  Categorie: [OUTPUT] Message:Jean-Michel
+2018-11-27T11:24:22.574+0100 info  Categorie: [OUTPUT] Message:Quit the program - quit
+2018-11-27T11:24:22.575+0100 info  Categorie: [OUTPUT] Message:Print available operations - disp
+2018-11-27T11:24:22.576+0100 info  Categorie: [OUTPUT] Message:Add a new product to the sale - add
+2018-11-27T11:24:22.577+0100 info  Categorie: [OUTPUT] Message:Print all available products  - print
+2018-11-27T11:24:22.577+0100 info  Categorie: [OUTPUT] Message:Open a client's note - open 
+2018-11-27T11:24:22.578+0100 info  Categorie: [OUTPUT] Message:Save a sell on a client's note - sell
+2018-11-27T11:24:22.578+0100 info  Categorie: [OUTPUT] Message:Close the note of a client - close
+2018-11-27T11:24:22.579+0100 info  Categorie: [OUTPUT] Message:Print the accounting data - accounting
+
+2018-11-27T11:24:29.376+0100 info  Categorie: [OUTPUT] Message:Burgers - 10 - 5.5€
+2018-11-27T11:24:29.377+0100 info  Categorie: [OUTPUT] Message:Smoothies - 30 - 2.5€
+2018-11-27T11:24:29.378+0100 info  Categorie: [OUTPUT] Message:Bagels - 20 - 3.5€
+2018-11-27T11:24:29.393+0100 info  Categorie: [OUTPUT] Message:Cafes - Unlimited - 5.5€
+2018-11-27T11:24:33.542+0100 info  Categorie: [OUTPUT] Message:Add new product to the sale
+2018-11-27T11:24:33.543+0100 info  Categorie: [OUTPUT] Message:Product name :
+2018-11-27T11:24:38.806+0100 info  Categorie: [OUTPUT] Message:Quantity :
+2018-11-27T11:24:40.630+0100 info  Categorie: [OUTPUT] Message:Price :
+2018-11-27T11:24:45.126+0100 info  Categorie: [OUTPUT] Message:Burgers - 10 - 5.5€
+2018-11-27T11:24:45.126+0100 info  Categorie: [OUTPUT] Message:Milkshake - 20 - 3.5€
+2018-11-27T11:24:45.127+0100 info  Categorie: [OUTPUT] Message:Smoothies - 30 - 2.5€
+2018-11-27T11:24:45.128+0100 info  Categorie: [OUTPUT] Message:Bagels - 20 - 3.5€
+2018-11-27T11:24:45.128+0100 info  Categorie: [OUTPUT] Message:Cafes - Unlimited - 5.5€
+2018-11-27T11:24:50.318+0100 info  Categorie: [OUTPUT] Message:Quit the program - quit
+2018-11-27T11:24:50.319+0100 info  Categorie: [OUTPUT] Message:Print available operations - disp
+2018-11-27T11:24:50.319+0100 info  Categorie: [OUTPUT] Message:Add a new product to the sale - add
+2018-11-27T11:24:50.320+0100 info  Categorie: [OUTPUT] Message:Print all available products  - print
+2018-11-27T11:24:50.321+0100 info  Categorie: [OUTPUT] Message:Open a client's note - open 
+2018-11-27T11:24:50.321+0100 info  Categorie: [OUTPUT] Message:Save a sell on a client's note - sell
+2018-11-27T11:24:50.321+0100 info  Categorie: [OUTPUT] Message:Close the note of a client - close
+2018-11-27T11:24:50.322+0100 info  Categorie: [OUTPUT] Message:Print the accounting data - accounting
+
+2018-11-27T11:24:52.486+0100 info  Categorie: [OUTPUT] Message:Client name : 
+2018-11-27T11:24:56.501+0100 info  Categorie: [OUTPUT] Message:Product :
+2018-11-27T11:25:00.515+0100 info  Categorie: [OUTPUT] Message:Quantity :
+2018-11-27T11:29:26.246+0100 info  Categorie: [OUTPUT] Message:Welcome to your restaurant management interface young padawan !
+2018-11-27T11:29:26.364+0100 info  Categorie: [OUTPUT] Message:How may I help you today ? (disp for the different operations)
+
+2018-11-27T11:29:27.764+0100 info  Categorie: [OUTPUT] Message:Quit the program - quit
+2018-11-27T11:29:27.765+0100 info  Categorie: [OUTPUT] Message:Print available operations - disp
+2018-11-27T11:29:27.766+0100 info  Categorie: [OUTPUT] Message:Add a new product to the sale - add
+2018-11-27T11:29:27.767+0100 info  Categorie: [OUTPUT] Message:Print all available products  - print
+2018-11-27T11:29:27.767+0100 info  Categorie: [OUTPUT] Message:Open a client's note - open 
+2018-11-27T11:29:27.767+0100 info  Categorie: [OUTPUT] Message:Save a sell on a client's note - sell
+2018-11-27T11:29:27.768+0100 info  Categorie: [OUTPUT] Message:Close the note of a client - close
+2018-11-27T11:29:27.769+0100 info  Categorie: [OUTPUT] Message:Print the accounting data - accounting
+
+2018-11-27T11:29:32.964+0100 info  Categorie: [OUTPUT] Message:Client name :
+2018-11-27T11:31:02.708+0100 info  Categorie: [OUTPUT] Message:Welcome to your restaurant management interface young padawan !
+2018-11-27T11:31:02.790+0100 info  Categorie: [OUTPUT] Message:How may I help you today ? (disp for the different operations)
+
+2018-11-27T11:31:05.257+0100 info  Categorie: [OUTPUT] Message:Quit the program - quit
+2018-11-27T11:31:05.258+0100 info  Categorie: [OUTPUT] Message:Print available operations - disp
+2018-11-27T11:31:05.259+0100 info  Categorie: [OUTPUT] Message:Add a new product to the sale - add
+2018-11-27T11:31:05.259+0100 info  Categorie: [OUTPUT] Message:Print all available products  - print
+2018-11-27T11:31:05.260+0100 info  Categorie: [OUTPUT] Message:Open a client's note - open 
+2018-11-27T11:31:05.260+0100 info  Categorie: [OUTPUT] Message:Save a sell on a client's note - sell
+2018-11-27T11:31:05.260+0100 info  Categorie: [OUTPUT] Message:Close the note of a client - close
+2018-11-27T11:31:05.261+0100 info  Categorie: [OUTPUT] Message:Print the accounting data - accounting
+
+2018-11-27T11:31:06.009+0100 info  Categorie: [OUTPUT] Message:Client name :
+2018-11-27T11:32:49.612+0100 info  Categorie: [OUTPUT] Message:Welcome to your restaurant management interface young padawan !
+2018-11-27T11:32:49.711+0100 info  Categorie: [OUTPUT] Message:How may I help you today ? (disp for the different operations)
+
+2018-11-27T11:32:50.988+0100 info  Categorie: [OUTPUT] Message:Client name :
+2018-11-27T11:32:54.869+0100 info  Categorie: [OUTPUT] Message:Command not found, disp for all the cmd
+2018-11-27T13:19:47.708+0100 info  Categorie: [OUTPUT] Message:Welcome to your restaurant management interface young padawan !
+2018-11-27T13:19:47.786+0100 info  Categorie: [OUTPUT] Message:How may I help you today ? (disp for the different operations)
+
+2018-11-27T13:19:50.090+0100 info  Categorie: [OUTPUT] Message:Quit the program - quit
+2018-11-27T13:19:50.090+0100 info  Categorie: [OUTPUT] Message:Print available operations - disp
+2018-11-27T13:19:50.091+0100 info  Categorie: [OUTPUT] Message:Add a new product to the sale - add
+2018-11-27T13:19:50.092+0100 info  Categorie: [OUTPUT] Message:Print all available products  - print
+2018-11-27T13:19:50.092+0100 info  Categorie: [OUTPUT] Message:Open a client's note - open 
+2018-11-27T13:19:50.092+0100 info  Categorie: [OUTPUT] Message:Save a sell on a client's note - sell
+2018-11-27T13:19:50.093+0100 info  Categorie: [OUTPUT] Message:Close the note of a client - close
+2018-11-27T13:19:50.094+0100 info  Categorie: [OUTPUT] Message:Print the accounting data - accounting
+
+2018-11-27T13:19:52.017+0100 info  Categorie: [OUTPUT] Message:Command not found, disp for all the cmd
+2018-11-27T13:19:52.018+0100 info  Categorie: [OUTPUT] Message:Thank you and have a wonderful day !
+2018-11-27T16:25:04.129+0100 info  Categorie: [OUTPUT] Message:Welcome to your restaurant management interface young padawan !
+2018-11-27T16:25:04.217+0100 info  Categorie: [OUTPUT] Message:How may I help you today ? (disp for the different operations)
+
+2018-11-27T16:25:07.351+0100 info  Categorie: [OUTPUT] Message:Command not found, disp for all the cmd
+2018-11-27T16:25:07.352+0100 info  Categorie: [OUTPUT] Message:Thank you and have a wonderful day !

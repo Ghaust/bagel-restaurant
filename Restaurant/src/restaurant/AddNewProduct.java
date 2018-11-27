@@ -1,34 +1,53 @@
-package restaurant;
+package restaurant.src.restaurant;
+
+
+import logger.src.logger.Logger;
 
 
 import java.util.Scanner;
 
 public class AddNewProduct implements Operation {
+
     @Override
-    public void launchOp() {
+    public void launchOp(Scanner sc, Logger logger) {
+        String productName = "";
+        int quantity = 0;
+        Double price = 0.0;
 
-        logger.log("Ajouter un nouveau produit à la vente");
-        Scanner sc = new Scanner(System.in);
+        logger.info("OUTPUT", "Add new product to the sale");
+        logger.info("OUTPUT", "Product name :");
 
-        logger.log("Nom du produit :");
-        String productName = sc.nextLine();
+        try {
+            productName = sc.nextLine();
 
-        logger.log("Quantité :");
-        int quantity = sc.nextInt();
+        } catch (Exception e) {
+            logger.error("INPUT", "Not String");
+        }
 
-        logger.log("Prix à l'unité :");
-        Double price = sc.nextDouble();
+        try {
+            logger.info("OUTPUT", "Quantity :");
+             quantity = sc.nextInt();
+        } catch (Exception e) {
+            logger.error("INPUT", "Not Integer");
+        }
+
+        try {
+            logger.info("OUTPUT", "Price :");
+            price = sc.nextDouble();
+
+        } catch (Exception e) {
+            logger.error("INPUT", "Not Double");
+        }
 
         Checkout.stock.add(new Product(productName, quantity, price));
+
     }
+
+
 
     @Override
     public String name() {
         return "AddNewProduct";
     }
 
-    @Override
-    public String instruction() {
-        return "Ajouter un nouveau produit à la vente - add";
-    }
 }

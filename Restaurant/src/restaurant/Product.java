@@ -1,4 +1,4 @@
-package restaurant;
+package restaurant.src.restaurant;
 
 public class Product {
     private String nameProduct;

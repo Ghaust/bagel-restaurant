@@ -1,10 +1,14 @@
-package restaurant;
+package restaurant.src.restaurant;
+
+import logger.src.logger.Logger;
+
+import java.util.Scanner;
 
 public class Quit implements Operation {
 
 
     @Override
-    public void launchOp() {
+    public void launchOp(Scanner sc, Logger logger) {
         System.exit(0);
     }
 
@@ -13,8 +17,5 @@ public class Quit implements Operation {
         return "Quit";
     }
 
-    @Override
-    public String instruction() {
-        return "Quitter le programme - quit";
-    }
+
 }

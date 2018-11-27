@@ -1,4 +1,7 @@
-package restaurant;
+package restaurant.src.restaurant;
+
+import logger.src.logger.Logger;
+
 
 import java.util.HashSet;
 import java.util.Scanner;
@@ -6,24 +9,26 @@ import java.util.Scanner;
 public class OpenNote implements Operation {
     HashSet<Note> notes = Checkout.notes;
     @Override
-    public void launchOp() {
-        logger.log("Veuillez saisir le nom du client svp !");
-        Scanner sc = new Scanner(System.in);
+    public void launchOp(Scanner sc, Logger logger) {
+
+        logger.info("OUTPUT","Client name : ");
         String clientName = sc.nextLine();
 
-        boolean nonUse = false;
+        boolean isFree = true;
 
         for(Note n : notes){
-            if(n.getNomClient().equals(clientName)){
-                logger.log("Cette note existe déjà.");
-                nonUse = false;
+            if(!n.getNomClient().equals(clientName)){
+                logger.info("OUTPUT", "This note already exists.");
+                isFree = false;
                 break;
             }
         }
 
-        if(nonUse != false){
+        if(isFree == true){
+            logger.info("INPUT", "New note created for " + clientName);
             this.notes.add(new Note(clientName));
-            logger.info("OUTPUT", "Nouvelle note créée pour " + clientName);
+
+           dispListNote(logger);
         }
 
     }
@@ -33,8 +38,10 @@ public class OpenNote implements Operation {
         return "OpenNote";
     }
 
-    @Override
-    public String instruction() {
-        return "Ouvrir la note d'un client - open";
+    public void dispListNote(Logger logger){
+        logger.info("OUTPUT", "List of notes :");
+        for(Note n : notes){
+            logger.info("OUTPUT", n.getNomClient());
+        }
     }
 }

@@ -1,13 +1,13 @@
-package restaurant;
+package restaurant.src.restaurant;
 
-import logger.*;
+import logger.src.logger.Logger;
+
+import java.util.Scanner;
 
 
 public interface Operation {
-    final Logger logger = LoggerFactory.getLogger(new FileLogger("Operation"), new ContextualLogger("Operation", new ConsoleLogger("Operation")));
 
-    void launchOp();
+    void launchOp(Scanner sc, Logger logger);
     String name();
-    String instruction();
 
 }

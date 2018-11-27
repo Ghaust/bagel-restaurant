@@ -1,4 +1,4 @@
-package logger;
+package logger.src.logger;
 
 public class CompositeLogger implements Logger {
     private FileLogger fileLogger;
@@ -10,17 +10,6 @@ public class CompositeLogger implements Logger {
     }
 
 
-    public void log(String message){
-        fileLogger.log(message);
-        contextualLogger.log(message);
-
-
-    }
-    public void debug(String category, String message)
-    {
-        fileLogger.debug(category, message);
-        contextualLogger.debug(category, message);
-    }
     public void info(String category, String message)
     {
         fileLogger.info(category, message);

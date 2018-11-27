@@ -1,29 +1,47 @@
-package restaurant;
+package restaurant.src.restaurant;
+
+import logger.src.logger.Logger;
+
 
 import java.util.HashSet;
 import java.util.Scanner;
 
 public class SaveProductSell implements Operation{
     HashSet<Note> notes = Checkout.notes;
-    @Override
-    public void launchOp() {
-        Scanner sc = new Scanner(System.in);
-        logger.log("Nom du client : ");
-        String clientName = sc.nextLine();
 
+    @Override
+    public void launchOp(Scanner sc, Logger logger) {
+
+        logger.info("OUTPUT","Client name : ");
+        String productName = "", clientName = "";
+        int quantity = 0;
+        try {
+            clientName = sc.nextLine();
+        }catch(Exception e){
+            logger.error("INPUT", "Not String");
+        }
         Note n = searchNote(clientName);
 
         if(n != null){
-            logger.info("OUTPUT", "Nom du produit :");
-            String productName = sc.nextLine();
-            logger.info("OUTPUT", "Quantité souhaitée :");
-            int quantity= sc.nextInt();
+            logger.info("OUTPUT", "Product :");
+            try {
+                productName = sc.nextLine();
+            }catch(Exception e){
+                logger.error("INPUT", "Not String");
+            }
+
+            logger.info("OUTPUT", "Quantity :");
+            try{
+                quantity= sc.nextInt();
+            }catch(Exception e){
+                logger.error("INPUT", "Not Int");
+            }
 
             n.addNewProduct(productName, quantity);
             decreaseStock(productName, quantity);
         }
         else
-            logger.error("OUTPUT", "Ce client n'existe pas");
+            logger.error("OUTPUT", "This client doesn't exist.");
     }
 
     @Override
@@ -31,13 +49,9 @@ public class SaveProductSell implements Operation{
         return "SaveProductSell";
     }
 
-    @Override
-    public String instruction() {
-        return "Enregistrer la vente d'un produit - save";
-    }
+
 
     public Note searchNote(String clientName){
-        boolean isUse = false;
         for(Note n : notes){
             if(n.getNomClient().equals(clientName)){
                 return n;
