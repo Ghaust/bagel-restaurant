@@ -1,12 +1,8 @@
- <h1>Java-Project</h1>
+ <h1>Bagel Restaurant Interface</h1>
+<h3> ESIEA Paris </h3>
+<h4>3rd year Java project</h4>
  
-<h4>3A Group project</h4>
  
- <i> Joseph-Emmanuel Banzio </i><br />
- <i>David Obiang Nzue </i> <br />
- <i>Lenny Daho </i>
-
-
 <h2> Subtleties of the program </h2>
 <ul>
     <li> HashSet of all operations in Checkout in order to make the code more flexible : every operation is a different class </li>
@@ -14,9 +10,10 @@
     <li> The different scripts can be use to compile, launch and execute the tests </li>
 </ul>
 
-<h2> Problems encountered</h2>
-<ul>
-    <li> We had to rethink our code from scratch in order to make it more flexible </li>
-    <li> We had to simplify and modify the responsibilities of certain classes (such as Checkout) to respect the limitations of the project</li>
-    <li> We had multiple problems about the package when we moved to Linux.</li>
-</ul>
+<h2> How does it works ? </h2>
+
+Use the different scripts :
+./compile.sh to compile all the classes
+./launch.sh to launch the program
+./test.sh if you want to run some tests 
+./clear.sh to clear all the .class when you are done
