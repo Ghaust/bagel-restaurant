@@ -12,8 +12,8 @@
 
 <h2> How does it works ? </h2>
 
-Use the different scripts :
-./compile.sh to compile all the classes
-./launch.sh to launch the program
-./test.sh if you want to run some tests 
-./clear.sh to clear all the .class when you are done
+Use the different scripts : <br />
+./compile.sh to compile all the classes <br />
+./launch.sh to launch the program  <br />
+./test.sh if you want to run some tests <br />
+./clear.sh to clear all the .class when you are done <br />
